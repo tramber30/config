@@ -1,0 +1,42 @@
+[user]
+	email = $EMAIL 
+	name = Nicolas Bertrand
+[core]
+	editor = vim
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	ui = always
+
+[diff]
+	external = $HOME/script/diff.py
+[alias]
+	br = branch
+	ck = checkout
+	com = commit
+	st = status
+        sh = show
+	lc = log ORIG_HEAD.. --stat --no-merges
+        lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
+	tmp = commit -a -m "tmp"
+        cp = cherry-pick
+        amend = commit --amend
+
+[format]
+	headers = "Content-Type: text/plain; charset=\"utf-8\"\nContent-Transfer-Encoding: 8bit\n"
+
+[sendemail]
+	smtpserver = smtp.gmail.com
+        smtpserverport = 587
+        smtpencryption = tls
+        smtpuser = $EMAIL
+	chainreplyto = false
+	suppresscc = all
+	aliasesfile = $HOME/.gitmailalias
+	aliasfiletype = mutt
+[mergetool]
+	keepbackup = false
+[help]
+	autocorrect = 1
