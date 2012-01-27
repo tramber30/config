@@ -59,7 +59,7 @@ fi
 
 alias ls='ls --color=auto'
 alias ll='ls -l'
-export PYTHONPATH=/usr/lib/pyshare/python2.6:/usr/share/pyshared
+export PYTHONPATH=/usr/lib/pyshared/python2.6:/usr/share/pyshared
 #alias vi='vi -u /etc/vimrc'
 
 
