@@ -1,4 +1,4 @@
-set runtimepath=/home/nbertran/.vim,/usr/share/vim/vim72,$VIMRUNTIME
+set runtimepath=~/.vim,/usr/share/vim/vim72,$VIMRUNTIME
 colorscheme default
 " coloration syntaxique
 syn on

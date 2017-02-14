@@ -1,6 +1,6 @@
 [user]
 	email = $EMAIL 
-	name = Nicolas Bertrand
+	name = Nicolas
 [core]
 	editor = vim
 [color]
@@ -11,7 +11,7 @@
 	ui = always
 
 [diff]
-	external = $HOME/script/diff.py
+	external = ~/script/git_diff.py
 [alias]
 	br = branch
 	ck = checkout
