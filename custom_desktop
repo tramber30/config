@@ -1,0 +1,28 @@
+# gnome extension
+Alternate tab
+coverflow alt-tab
+launch new instance
+
+# Font
+Hack from codeface
+https://github.com/chrissimpkins/codeface/blob/master/README.md
+title Hack bold
+Interface & Document DéjaVu Sans Book
+Monospace Hack Regular
+
+# set battery percentage
+gsettings set org.gnome.desktop.interface show-battery-percentage true
+
+# theme
+Gnome theme Vertex (GTK+ & Shell)
+https://github.com/horst3180/vertex-theme
+
+# Colorscheme solarized (light)
+# Vim
+https://github.com/altercation/vim-colors-solarized
+http://ethanschoonover.com/solarized/vim-colors-solarized
+# Terminal
+http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html
+
+#icons ubo
+# https://www.gnome-look.org/p/1012539/
