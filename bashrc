@@ -1,6 +1,9 @@
 # Disable sound notification
 set bell-style visual
 
+# Enable color prompt
+color_prompt="yes"
+
 # Colored git prompt
 source /usr/share/git/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1 GIT_PS1_SHOWSTASHSTATE=1 GIT_PS1_SHOWUNTRACKEDFILES=1
