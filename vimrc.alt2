@@ -1,6 +1,9 @@
 set nocompatible
 set backspace=indent,eol,start
 
+" store swap files in this folder
+set directory=~/.vim/swapfiles//
+
 " AUTOCOMPLETION
 setlocal omnifunc=syntaxcomplete#Complete   " Autocompletion, engage!
 set cot+=menuone    " Show preview of function prototype
