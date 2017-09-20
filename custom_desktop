@@ -7,7 +7,7 @@ launch new instance
 Hack from codeface
 https://github.com/chrissimpkins/codeface/blob/master/README.md
 title Hack bold
-Interface & Document DéjaVu Sans Book
+Interface & Document DéjaVu Sans Book (orig. cantarell)
 Monospace Hack Regular
 
 # set battery percentage
@@ -16,6 +16,8 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 # theme
 Gnome theme Vertex (GTK+ & Shell)
 https://github.com/horst3180/vertex-theme
+Zukitwo
+https://github.com/lassekongo83/zuki-themes
 
 # Colorscheme solarized (light)
 # Vim
