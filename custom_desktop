@@ -2,22 +2,22 @@
 Alternate tab
 coverflow alt-tab
 launch new instance
+User theme
+Gtile ?
 
 # Font
 Hack from codeface
 https://github.com/chrissimpkins/codeface/blob/master/README.md
-title Hack bold
-Interface & Document DéjaVu Sans Book (orig. cantarell)
+title Cantarell Bold
+Interface & Document Cantarell Regular 
 Monospace Hack Regular
 
 # set battery percentage
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 # theme
-Gnome theme Vertex (GTK+ & Shell)
-https://github.com/horst3180/vertex-theme
-Zukitwo
-https://github.com/lassekongo83/zuki-themes
+Applications/Cursor/Icons Paper
+Shell Adapta-Nokto
 
 # Colorscheme solarized (light)
 # Vim
@@ -25,6 +25,8 @@ https://github.com/altercation/vim-colors-solarized
 http://ethanschoonover.com/solarized/vim-colors-solarized
 # Terminal
 http://www.webupd8.org/2011/04/solarized-must-have-color-paletter-for.html
+terminal palette
+vimrc
 
-#icons ubo
-# https://www.gnome-look.org/p/1012539/
+# Grub background
+/boot/grub2/theme/openSUSE/theme.txt "desktop-image"
