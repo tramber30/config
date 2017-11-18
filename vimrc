@@ -17,8 +17,13 @@ autocmd Filetype c,cpp,java,php set cindent
 " INTERFACE
 set nocp            " No compatible mode
 
+" Solarized options
+let g:solarized_termcolors=256
+" let g:solarized_bold=0
+let g:solarized_termtrans=1
+
+syntax enable
 set background=light
-syntax on
 colorscheme solarized
 
 
