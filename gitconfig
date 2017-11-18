@@ -1,8 +1,10 @@
 [user]
-	email = $EMAIL 
-	name = Nicolas
+	email = tramber30@gmail.com 
+	name = Nico
 [core]
 	editor = vim
+	askpass = 
+        pager = more
 [color]
 	branch = auto
 	diff = auto
@@ -11,14 +13,15 @@
 	ui = always
 
 [diff]
-	external = ~/script/git_diff.py
+	external = ~/git/script/git_diff.py
 [alias]
 	br = branch
 	ck = checkout
 	com = commit
 	st = status
         sh = show
-	lc = log ORIG_HEAD.. --stat --no-merges
+#	lc = log ORIG_HEAD.. --stat --no-merges
+	lc = log --stat --no-merges
         lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
 	tmp = commit -a -m "tmp"
         cp = cherry-pick
