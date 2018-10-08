@@ -1,6 +1,6 @@
 [user]
-	email = tramber30@gmail.com 
-	name = Nico
+	email = $EMAIL 
+	name = $NAME
 [core]
 	editor = vim
 	askpass = 
@@ -37,7 +37,7 @@
         smtpuser = $EMAIL
 	chainreplyto = false
 	suppresscc = all
-	aliasesfile = $HOME/.gitmailalias
+	aliasesfile = ~/.gitmailalias
 	aliasfiletype = mutt
 [mergetool]
 	keepbackup = false

@@ -3,7 +3,10 @@ Alternate tab
 coverflow alt-tab
 launch new instance
 User theme
-Gtile ?
+Gtile 
+        super + <       4x4 0:0 1:3
+        super + w       4x4 2:0 3:2
+        super + x       4x4 2:3 3:3
 
 # Font
 Hack from codeface
@@ -30,3 +33,7 @@ vimrc
 
 # Grub background
 /boot/grub2/theme/openSUSE/theme.txt "desktop-image"
+
+# tunning
+disable bluetooth
+disable modemmanager
