@@ -1,0 +1,2 @@
+SUBSYSTEM=="input", ACTION=="add", SUBSYSTEMS=="usb", ATTRS{idVendor}=="abcd", ATTRS{idProduct}=="abcd", RUN+"/home/tramb/config/udev_kb_switch.sh"
+SUBSYSTEM=="input", ACTION=="remove", SUBSYSTEMS=="usb", ATTRS{idVendor}=="abcd", ATTRS{idProduct}=="abcd", RUN+"/home/tramb/config/udev_kb_switch.sh"
