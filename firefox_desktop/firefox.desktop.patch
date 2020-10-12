@@ -1,9 +1,0 @@
-15c15
-< Actions=PrivateBrowsing;
----
-> Actions=PrivateBrowsing;TestProfile;
-19a20,23
-> 
-> [Desktop Action TestProfile]
-> Name=Test profile session
-> Exec=firefox -P "Firefox Test"
