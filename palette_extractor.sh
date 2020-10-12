@@ -19,4 +19,4 @@ do
         tput setaf $color; echo -n "#$color#" 
 done
 echo ""
-
+tput setaf 0
