@@ -13,33 +13,25 @@
 	ui = always
 
 [diff]
-	external = ~/git/script/git_diff.py
+	tool = vimdiff
 [alias]
 	br = branch
 	ck = checkout
 	com = commit
 	st = status
 	sh = show
-#	lc = log ORIG_HEAD.. --stat --no-merges
 	lc = log --stat --no-merges
 	lg = log --graph --pretty=tformat:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%an %cr)%Creset' --abbrev-commit --date=relative
 	tmp = commit -a -m "tmp"
 	cp = cherry-pick
 	amend = commit --amend
-
 [format]
 	headers = "Content-Type: text/plain; charset=\"utf-8\"\nContent-Transfer-Encoding: 8bit\n"
-
-[sendemail]
-	smtpserver = smtp.gmail.com
-	smtpserverport = 587
-	smtpencryption = tls
-	smtpuser = $EMAIL
-	chainreplyto = false
-	suppresscc = all
-	aliasesfile = ~/.gitmailalias
-	aliasfiletype = mutt
 [mergetool]
 	keepbackup = false
 [help]
 	autocorrect = 1
+[merge]
+	tool = vimdiff
+[difftool]
+	prompt = false
